@@ -37,6 +37,10 @@ h2 {
   width: 700px;
 }
 
+.hero-text .button{
+  margin-left: 70px;
+}
+
 header {
   display: flex;
   height: 100px;
@@ -171,6 +175,7 @@ ul.nav-menu li a:hover {
   flex-wrap: nowrap;
   align-items: center;
   color: black;
+  
 }
 .service-box p {
   text-align: center;
@@ -330,6 +335,10 @@ ul.nav-menu li a:hover {
     margin: 150px 50px;
   }
 
+  .hero-text .button{
+    margin-left: 0;
+  }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -393,6 +402,10 @@ ul.nav-menu li a:hover {
   .hero-text h1 {
     width: auto;
     padding: 0px;
+  }
+
+  .hero-text .button{
+    margin-left: 0;
   }
   .contact {
     display: flex;
@@ -493,3 +506,8 @@ ul.nav-menu li a:hover {
 .whatsapp:hover{
   opacity: 0.6;
 }
+
+.li li{
+  list-style: none;
+}
+
