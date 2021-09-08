@@ -125,15 +125,8 @@ ul.nav-menu li a:hover {
   flex-direction: row;
   justify-content: center;
 }
-.title-h2 {
-  display: block;
-  margin: 0;
-  height: 60px;
-  margin: 10px 40px;
-}
-.title-h2 h2 {
-  color: black;
-}
+
+
 .aboutme-txt {
   margin: 30px 30px;
 }
@@ -141,45 +134,48 @@ ul.nav-menu li a:hover {
   width: 70%;
 }
 .aboutme-video {
-  background: url("./img/video-img.jpg");
+  background: url("./img/Sobre-mi.jpg");
   background-size: cover;
   background-position: 20%;
 }
-.services-img {
-  background: url("./img/services-img.jpg");
-  background-size: cover;
-}
-.services {
+
+#services {
+  
+  width: 100%;
+  height: 605px;
   display: flex;
+  flex-direction: row;
+
+  
+
 }
+
+.metodo{
+  margin-left: 45px;
+}
+
+.metodo .circulos{
+  margin-top: 190px;
+  right: 0;
+  left: 0;
+  
+
+}
+
 .services-txt {
-  padding: 10px;
-  background-color: white;
+  width: 100%;
+  background-color:  #FBFBFB;
 }
 .grid {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.services-grid {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-.service-box {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  color: black;
   
 }
-.service-box p {
-  text-align: center;
-}
+
+
+
+
 .contact {
   display: flex;
   justify-content: space-evenly;
@@ -321,6 +317,12 @@ ul.nav-menu li a:hover {
 .responsive-menu-items {
   display: none;
 }
+
+
+
+
+
+
 @media screen and (max-width: 850px) {
   .hero-text h1 {
     padding: 0px;
@@ -338,6 +340,27 @@ ul.nav-menu li a:hover {
   .hero-text .button{
     margin-left: 0;
   }
+
+  #services {
+  
+    width: 100%;
+    height: 600px;
+    display:flex;
+    flex-wrap: wrap;
+    right: 0;
+    left: 0;
+  
+  }
+
+  .metodo{
+    display: flex;
+    flex-direction: row;
+    left: 0%;
+    right: 0%;
+    
+  }
+
+  
 
 }
 
@@ -368,7 +391,7 @@ ul.nav-menu li a:hover {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   .aboutme-video {
     order: 1;
@@ -376,16 +399,75 @@ ul.nav-menu li a:hover {
   .aboutme-txt {
     order: 2;
   }
-  .services-img {
-    order: 3;
+ 
+ 
+
+  
+  div.text{
+    left: 0;
+    right: 0;
   }
-  .services-txt {
-    order: 4;
+
+  #services {
+  
+    width: 100%;
+    height: 1500px;
+    display:flex;
+    flex-direction: column;
+    right: 0;
+    left: 0;
+    
+    
   }
-  .services-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-  }
+    
+  
+
+  .pasos {
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #B28672;
+    text-align: center;
+    
+    }
+    
+    .subtitulo {
+      color: #4C3512;
+    font-size: 20px;
+    text-align: center;
+    
+    
+    }
+    
+    .ejercicios{
+      font-family: Quicksand;
+      font-size: 18px;
+      color: #4C3512;
+      text-align: center;
+    }
+    
+    
+   
+    
+     div .circulos{
+        left: 0;
+        right: 0;
+        text-align: center;
+        
+      }
+
+      .metodo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        right: 0;
+      }
+
+
   .q-div {
     height: 800px;
   }
@@ -509,5 +591,72 @@ ul.nav-menu li a:hover {
 
 .li li{
   list-style: none;
+}
+
+li::marker{
+  color:#e5bb7c ;
+}
+
+.marron {
+  color:#4C3512;
+  margin-left: 114px;
+
+
+ 
+  
+}
+
+.pasos {
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+letter-spacing: 0em;
+text-align: center;
+color: #B28672;
+text-align: center;
+
+}
+
+.subtitulo {
+  color: #4C3512;
+font-size: 20px;
+text-align: center;
+
+
+}
+
+.ejercicios{
+  font-family: Quicksand;
+  font-size: 18px;
+  color: #4C3512;
+  text-align: center;
+}
+
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 115px;
+    left: 0;
+    right: 0;
+    
+    
+  }
+
+  .circulos{
+    
+    text-align: center;
+    
+  }
+
+
+
+.titulo-metodo{
+  position: absolute;
+    color:#4C3512;
+    
+    margin-left: 30px;
 }
 
