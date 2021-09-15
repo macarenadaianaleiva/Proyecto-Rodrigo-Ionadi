@@ -399,6 +399,13 @@ ul.nav-menu li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+      font-size: 18px;
+     display:block !important;
+  }
+
+  #services{
+    height: 700px;
+    flex-wrap: nowrap;
   }
 
 
@@ -548,9 +555,10 @@ ul.nav-menu li a:hover {
     
      }
  
+     
      .learning-navCel{
        font-size: 18px;
-       display: block;
+      display:block !important;
      }
 
   .q-div {
@@ -838,4 +846,7 @@ list-style: none;
   width: 100px;
 }
 
+.learning-navCel{
+  display: none;
+}
 
