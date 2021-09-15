@@ -6,6 +6,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #272423;
   color: white;
+  width: 90%;
+  margin: 0 auto;
 }
 
 p {
@@ -49,8 +51,8 @@ header {
 
 .logo{
   position: absolute;
-  left: 10%;
-  top: 10%;
+  left: 15%;
+  top: 4%;
 }
 
 .header-social {
@@ -151,9 +153,6 @@ ul.nav-menu li a:hover {
   height: 605px;
   display: flex;
   flex-direction: row;
-
-  
-
 }
 
 .metodo{
@@ -164,19 +163,17 @@ ul.nav-menu li a:hover {
   margin-top: 190px;
   right: 0;
   left: 0;
-  
-
 }
 
 .services-txt {
   width: 100%;
   background-color:  #FBFBFB;
 }
+
 .grid {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(2, 1fr);
-  
+  grid-template-columns: repeat(2, 1fr);  
 }
 
 .contact {
@@ -401,6 +398,7 @@ ul.nav-menu li a:hover {
     align-items: center;
       font-size: 18px;
      display:block !important;
+     
   }
 
   #services{
@@ -408,6 +406,39 @@ ul.nav-menu li a:hover {
     flex-wrap: nowrap;
   }
 
+  .flecha{
+    color: #e5bb7c;
+   font-size: 18px;
+  }
+
+  .borderCel{
+    list-style: none;
+    
+  }
+
+  .items{
+    margin-top: 15%;
+    
+  }
+
+  .items li{
+    padding-top: 10%;
+  }
+
+  #show1{
+    list-style: none;
+   font-size: 21px;
+  }
+
+  #show2{
+    list-style: none;
+   font-size: 21px;
+  }
+
+  #show3{
+    list-style: none;
+   font-size: 21px;
+  }
 
 }
 
@@ -446,9 +477,6 @@ ul.nav-menu li a:hover {
   .aboutme-txt {
     order: 2;
   }
- 
- 
-
   
   div.text{
     left: 0;
@@ -463,14 +491,39 @@ ul.nav-menu li a:hover {
     flex-direction: column;
     right: 0;
     left: 0;
-    
-    
+  }
+
+.logo svg{
+  width: 150px;
+  height: 120px;
+  
+}
+
+.items li{
+  padding-top: 10%;
+}
+
+.logo{
+  position: absolute;
+  left:20%;
+  top:0% ;
+
+}
+
+  .metodo{
+    margin: 0;
   }
     
   .titulo-metodo{
     position: absolute;
       color:#4C3512;
-     
+      width: 270px;
+      padding: 0;
+      margin-top: 15%; 
+  }
+
+  .contact-details{
+    margin-bottom: 60%;
   }
 
   .pasos {
@@ -483,7 +536,7 @@ ul.nav-menu li a:hover {
     color: #B28672;
     text-align: center;
     
-    }
+  }
     
     .subtitulo {
       color: #4C3512;
@@ -536,30 +589,42 @@ ul.nav-menu li a:hover {
 
      .borderCel{
        font-size: 21px;
-       
+       list-style: none;
+      
      }
      
+   .flecha{
+     color: #e5bb7c;
+    font-size: 18px;
+   }
 
      #show1{
+       list-style: none;
       font-size: 21px;
-      
      }
 
      #show2{
+       list-style: none;
       font-size: 21px;
-     
      }
 
      #show3{
+       list-style: none;
       font-size: 21px;
-    
      }
  
-     
      .learning-navCel{
        font-size: 18px;
       display:block !important;
      }
+
+   .reviews{
+     padding-top: 20%;
+   }
+
+   #carousel{
+     margin-top: 30%;
+   }
 
   .q-div {
     height: 800px;
@@ -587,9 +652,7 @@ ul.nav-menu li a:hover {
     flex-direction: column-reverse;
     height: auto;
   }
-  .contact-details {
-    padding-left: 40px;
-  }
+  
   .contact-form-div {
     width: auto;
     margin: 150px 30px;
@@ -783,7 +846,7 @@ list-style: none;
   display: flex;
   justify-content: space-between;
   height: 17px;
-  width: 80%;
+  width: 83%;
   list-style-type: none;
   color: grey;
 }

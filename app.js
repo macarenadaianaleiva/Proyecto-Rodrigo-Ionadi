@@ -1,7 +1,7 @@
 //EVENTOS CLICK DE LAS REDES
-$(".igLink").click(() => window.open("http://www.instagram.com"));
-$(".ytLink").click(() => window.open("http://www.youtube.com"));
-$(".fbLink").click(() => window.open("http://www.facebook.com"));
+$(".igLink").click(() => window.open("http://www.instagram.com/rodrigoionadi/"));
+$(".ytLink").click(() => window.open("http://www.youtube.com/channel/UCS4U95QptUjWobeR5ZPZarg"));
+$(".fbLink").click(() => window.open("http://www.facebook.com/rodri.ionadi"));
 
 //EFECTO DEL MENU RESPONSIVE
 $(".responsive-menu-items ul li").click(() => {
