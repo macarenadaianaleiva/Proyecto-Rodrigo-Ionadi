@@ -443,11 +443,6 @@ ul.nav-menu li a:hover {
 
 }
 
-
-@media screen and (max-width: 850px){
-
-}
-
 @media screen and (max-width: 750px) {
   h2 {
     font-size: 2em;
