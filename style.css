@@ -366,25 +366,30 @@ ul.nav-menu li a:hover {
     justify-content: center;
   }
 
-  .celclases{
+  .celclases1 {
+    margin: 30px;
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-  }
+    flex-direction: column;
+    align-items: center;
+}
 
- 
   .celclases1 p{
     text-align: center;
     font-size: 14px;
 
   }
   
-
-  .celclases3{
+  .celclases3, .celclases {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-  }
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.celclases3 p {
+  text-align: center;
+}
+ 
 
   .celclases svg{
     width: 100px;
@@ -463,8 +468,12 @@ ul.nav-menu li a:hover {
     width: 400px;
     list-style-type: none;
     text-decoration: none;
-    color: white;
+    color:#e5bb7c;
   }
+
+  .responsive-menu-items ul li {
+    padding: 15px;
+}
   .questions {
     height: 550px;
   }
@@ -473,9 +482,6 @@ ul.nav-menu li a:hover {
     grid-template-rows: repeat(2, 1fr);
   }
   .aboutme-video {
-   
-    
-   
     order: 1;
   }
   .aboutme-txt {
