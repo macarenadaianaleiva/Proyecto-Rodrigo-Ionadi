@@ -319,6 +319,9 @@ ul.nav-menu li a:hover {
 
 
 @media screen and (max-width: 1214px) {
+  .learning-navCel h2{
+    margin-left: 20px;
+  }
   .hero-text h1 {
     padding: 0px;
   }
